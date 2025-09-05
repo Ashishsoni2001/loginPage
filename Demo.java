@@ -7,11 +7,13 @@ class A
 		System.out.println("sum="a+b);
 	}
 }
-class 	B
+class B
 {
 public static void main(String args[])
 {
 A a=new A();
+a.m1();
+
 }
 
 }
